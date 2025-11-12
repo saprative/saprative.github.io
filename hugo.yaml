@@ -1,3 +1,57 @@
-baseURL: https://example.org/
+baseURL: https://saprative.github.com/
 languageCode: en-us
-title: My New Hugo Site
+title: Saprative's Blog
+theme: ["PaperMod"]
+copyright: "© [Saprative Jana](https://linkedin.com/in/saprative)"
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+pygmentsUseClasses: true
+mainsections: ["posts", "papermod"]
+
+minify:
+  disableXML: true
+  # minifyOutput: true
+
+pagination:
+  disableAliases: false
+  pagerSize: 5
+
+params:
+  disableThemeToggle: true
+  defaultTheme: light
+  homeInfoParams:
+    Title: " Hi 👋 I am  Saprative Jana"
+    Content: >
+        I ex-founder currently working as a Product Manager at MathCo.
+        
+
+        - I 🌟 specialise in building SAAS and GenAI Platfrom and with 
+          over 10 years of experience of running a IT Service Company known 
+          for building SAAS products I have a good understanding of how to run a company 
+          and take it from 0 to 1.
+
+        - Download my CV  ➔ [Download](https://github.com/nanxiaobei/hugo-paper/tree/4330c8b12aa48bfdecbcad6ad66145f679a430b3).
+
+  socialIcons:
+    - name: linkedin
+      title: Checkout my linkedin Profile
+      url: "https://linkedin.com/in/saprative"
+    - name: github
+      title: Checkout by Github Profile
+      url: "https://github.com/saprative"
+    - name: instagram
+      title: Join my Insta Community
+      url: "https://instagram.com/saprativejana"
+    - name: youtube
+      title: Subscribe to me on Youtube
+      url: "https://youtube.com/saprativejana"
+    - name: X
+      title: Checkout my X Account 
+      url: "https://x.com/saprative_jana"
+    - name: spotify
+      title: Listen to Playlist
+      url: "https://open.spotify.com/playlist/2zpbC8DIONMQlqsUtaH6nx?si=7326666c12764316"

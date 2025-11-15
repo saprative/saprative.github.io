@@ -86,7 +86,7 @@ params:
 
         - Download my CV  ➔ [Download](https://1drv.ms/w/c/77019e071863f765/ESAOZx8rj6NCpJXmrGo6WnwB4BRiKC02k6tB7XTleU0pzw).
 
-    socialIcons:
+  socialIcons:
     - name: linkedin
       title: Checkout my linkedin Profile
       url: "https://linkedin.com/in/saprative"

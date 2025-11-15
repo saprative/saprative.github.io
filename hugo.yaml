@@ -10,7 +10,7 @@ buildFuture: false
 buildExpired: false
 enableEmoji: true
 pygmentsUseClasses: true
-mainsections: ["posts", "papermod"]
+mainsections: ["posts"]
 
 minify:
   disableXML: true
@@ -21,8 +21,38 @@ pagination:
   pagerSize: 5
 
 params:
-  disableThemeToggle: true
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  description: "Saprative Jana - https://linkedin.com/in/saprative"
+  author: Saprative Jana
+  # author: ["Me", "You"] # multiple authors
+
+  profileMode:
+    enabled: false
+    title: PaperMod
+    imageUrl: "#"
+    imageTitle: my image
+    # imageWidth: 120
+    # imageHeight: 120
+    buttons:
+      - name: Archives
+        url: archives
+      - name: Tags
+        url: tags
+
   defaultTheme: light
+  # disableThemeToggle: true
+  ShowShareButtons: true
+  ShowReadingTime: true
+  # disableSpecial1stPost: true
+  displayFullLangName: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowRssButtonInSectionTermList: true
+  ShowAllPagesInArchive: true
+  ShowPageNums: true
+  disableThemeToggle: true
+  
   homeInfoParams:
     Title: " Hi 👋 I am  Saprative Jana"
     Content: >
@@ -34,7 +64,7 @@ params:
           for building SAAS products I have a good understanding of how to run a company 
           and take it from 0 to 1.
 
-        - Download my CV  ➔ [Download](https://github.com/nanxiaobei/hugo-paper/tree/4330c8b12aa48bfdecbcad6ad66145f679a430b3).
+        - Download my CV  ➔ [Download](https://1drv.ms/w/c/77019e071863f765/ESAOZx8rj6NCpJXmrGo6WnwB4BRiKC02k6tB7XTleU0pzw).
 
   socialIcons:
     - name: linkedin

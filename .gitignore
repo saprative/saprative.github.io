@@ -1,4 +1,45 @@
-public/*
+# Hugo build output
+/public/
 
-Files 
+# Hugo resources and generated assets
+/resources/
+/resources/_gen/
+hugo_stats.json
+
+# Node/npm
+node_modules/
+dist/
+build/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDEs and editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Editor swap/temp files
+*~
+*.swp
+*.tmp
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Logs and lockfiles
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
 *.lock
+
+# Other
+Thumbs.db

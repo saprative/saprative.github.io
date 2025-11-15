@@ -1,4 +1,4 @@
-baseURL: https://saprative.github.com/
+baseURL: https://saprative.github.io/
 languageCode: en-us
 title: Saprative's Blog
 theme: ["PaperMod"]
@@ -10,7 +10,7 @@ buildFuture: false
 buildExpired: false
 enableEmoji: true
 pygmentsUseClasses: true
-mainsections: ["posts"]
+mainsections: ["posts","PaperMod"]
 
 minify:
   disableXML: true
@@ -19,6 +19,28 @@ minify:
 pagination:
   disableAliases: false
   pagerSize: 5
+
+languages:
+  en:
+    languageName: "English"
+    weight: 1
+    taxonomies:
+      category: categories
+      tag: tags
+      series: series
+    menu:
+      main:
+        - name: Archive
+          url: archives
+          weight: 5
+        - name: Search
+          url: search/
+          weight: 10
+        - name: Tags
+          url: tags/
+          weight: 10
+        - name: CV
+          url: "https://1drv.ms/w/c/77019e071863f765/ESAOZx8rj6NCpJXmrGo6WnwB4BRiKC02k6tB7XTleU0pzw" 
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
@@ -44,7 +66,7 @@ params:
   ShowShareButtons: true
   ShowReadingTime: true
   # disableSpecial1stPost: true
-  displayFullLangName: true
+  DisplayFullLangName: true
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
@@ -52,12 +74,10 @@ params:
   ShowAllPagesInArchive: true
   ShowPageNums: true
   disableThemeToggle: true
-  
   homeInfoParams:
     Title: " Hi 👋 I am  Saprative Jana"
     Content: >
         I ex-founder currently working as a Product Manager at MathCo.
-        
 
         - I 🌟 specialise in building SAAS and GenAI Platfrom and with 
           over 10 years of experience of running a IT Service Company known 
@@ -66,7 +86,7 @@ params:
 
         - Download my CV  ➔ [Download](https://1drv.ms/w/c/77019e071863f765/ESAOZx8rj6NCpJXmrGo6WnwB4BRiKC02k6tB7XTleU0pzw).
 
-  socialIcons:
+    socialIcons:
     - name: linkedin
       title: Checkout my linkedin Profile
       url: "https://linkedin.com/in/saprative"
